@@ -1,0 +1,120 @@
+/* *{
+    margin: 0;
+
+} */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    text-align: center;
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.p_class{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.p_style{
+    text-align: center;
+   
+} 
+.p_text{
+    text-align: center;
+}
+.container_1{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.card_1{
+    height: 110vh;
+    width: 60vh;
+    margin-left:30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.card_2{
+    height: 110vh;
+    width: 60vh;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+   
+}
+.best_value{
+     position: absolute;
+    top: 10px;
+    left: 41%;
+    background-color: rgb(253,217,78);
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    /* margin-left: 126px; */
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.card_3{
+    height: 110vh;
+    width: 60vh;
+    margin-right: 30px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+}
+
+.inside_card_1{
+    background-color: rgb(240, 237, 255);
+    border-radius: 10px;
+    margin-top:  20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    height: 55vh;
+    width: 50vh;
+}
+.p_class{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.btn{
+    background-color: rgb(114, 87, 253);
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    margin: 7px;
+    color: white;
+    font-weight: bold;
+    width: 330px;
+    /* display: flex; */
+}
+
+h4{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+}
+.p_h4{
+    font-size: 20px;
+}
